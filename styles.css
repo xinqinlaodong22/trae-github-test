@@ -1,0 +1,36 @@
+/* 文件头注释 */
+/* 文件名：styles.css */
+/* 描述：蛋主题网页的样式表 */
+
+/* 文件级注释 */
+/* 该文件包含网页的整体布局和样式 */
+
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* 头部样式 */
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 主要内容样式 */
+main {
+    padding: 20px;
+}
+
+/* 图片区域样式 */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* 文件尾注释 */
+/* 样式表结束 */
