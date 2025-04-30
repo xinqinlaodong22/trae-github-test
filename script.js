@@ -7,27 +7,27 @@
 
 // 图片数据
 const eggImages = [
-    'https://example.com/egg1.jpg',
-    'https://example.com/egg2.jpg',
-    'https://example.com/egg3.jpg'
-];
+  'https://example.com/egg1.jpg',
+  'https://example.com/egg2.jpg',
+  'https://example.com/egg3.jpg'
+]
 
 // 函数级注释
 /**
  * 初始化图片库
  */
 function initGallery() {
-    const gallery = document.querySelector('.gallery');
-    eggImages.forEach(imgUrl => {
-        const img = document.createElement('img');
-        img.src = imgUrl;
-        img.alt = '蛋的图片';
-        gallery.appendChild(img);
-    });
+  const gallery = document.querySelector('.gallery')
+  eggImages.forEach((imgUrl) => {
+    const img = document.createElement('img')
+    img.src = imgUrl
+    img.alt = '蛋的图片'
+    gallery.appendChild(img)
+  })
 }
 
 // 页面加载时初始化
-window.onload = initGallery;
+window.onload = initGallery
 
 /* 文件尾注释 */
 /* 脚本结束 */
